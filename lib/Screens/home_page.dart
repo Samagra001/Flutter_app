@@ -9,12 +9,12 @@ class HOMEPAGE extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Left on Android Devices"),
-        backgroundColor: Colors.blue,
+        title: Text("Left side on Android Devices"),
+        // backgroundColor: Colors.blue,
       ),
       body: Center(
         child: Container(
-          child: const Text("Welcome tooo flutter"),
+          child: Text("Welcome 2 flutter"),
         ),
       ),
       drawer: Drawer(),
